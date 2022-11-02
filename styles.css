@@ -1,0 +1,37 @@
+body { background-color: rgb(206, 173, 129); }
+.right { float: right; margin-right: 20px;}
+nav ul li { display: inline; font-size: 2em; color: black; }
+a { text-decoration: none; color: black; }
+.center { position: absolute; top: 50%; left: 50%; margin-right: -50%; transform: translate(-50%, -50%); }
+.center ul li { display: inline; }
+.where-to { width: 22vw; }
+.when { width: 13vw; }
+.how-much { width: 11vw; }
+.go-trip { position: absolute; top: 120%; left: 50%; margin-right: -50%; transform: translate(-50%, -50%); }
+.info { height: 6vh; border-radius: 4px; background-color: rgba(115, 35, 228, 0.467); font-size: 4vh; border-width: 4px; border-color: rgb(221, 60, 60); color:rgb(0, 0, 0); }
+*::placeholder { color: rgb(71, 71, 71); font-size: 1em; margin-left: 2vw; }
+
+.spesify { font-size: 2em; }
+.spesify ul { margin-left: 32%; }
+.spesify ul li { display: inline; background-color: rgb(132, 132, 134); padding: 3px 10px 3px 10px; text-decoration: none; color: black; }
+
+.center-detail { position: absolute; top: 50%; left: 50%; margin-right: -50%; transform: translate(-50%, -50%);
+width: 80vw; height: 80vh; background-color: brown; }
+.question { background-color: rgb(84, 182, 94); padding: 2vh 2vw 2vh 2vw; }
+.question ul { list-style: none; }
+.submit-pref { margin-top: 40vh; margin-left: 37vw; width: 6vw; }
+
+.center-itin { position: absolute; top: 50%; left: 50%; margin-right: -50%; transform: translate(-50%, -50%);
+width: 95vw; height: 90vh; margin-top: 3vh; background-color: brown; }
+.spesify li { display: inline; background-color: rgb(153, 153, 173); padding: 3px; text-decoration: none; color: black; }
+.itin-grid { display: grid; grid-template-columns: 30vw 65vw; grid-template-rows: 17.2vh 17.2vh 17.2vh 17.2vh 17.2vh;
+grid-template-areas: "i1 i6" "i2 i6" "i3 i6" "i4 i6" "i5 i6";
+grid-row-gap: 1vh; }
+.i { background-color: green; }
+.i1 { grid-area: i1; }
+.i2 { grid-area: i2; }
+.i3 { grid-area: i3; }
+.i4 { grid-area: i4; background-color: rgb(0, 209, 0); }
+.i5 { grid-area: i5; }
+.i6 { grid-area: i6; background-color: rgb(112, 112, 246); }
+.i6 p { font-size: 1.4em; }
