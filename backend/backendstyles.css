@@ -1,0 +1,16 @@
+ @font-face { font-family: Inter; src: url(Inter/static/Inter-Medium.ttf); font-weight: normal; }
+html { font-family: Inter; }
+body { background-color: rgb(244, 242, 212); }
+.right { float: right; margin-right: 20px;}
+nav ul li { display: inline; font-size: 1em; color: #207bb0; }
+a { text-decoration: none; color: #207bb0; }
+.center { position: absolute; top: 50%; left: 50%; margin-right: -50%; transform: translate(-50%, -50%); }
+.center ul { list-style: none; }
+.details { text-decoration: none; width: 40vw; height: 5vh; font-size: 3vh; }
+.go-trip { background-color: #a1cce5; position: absolute; top: 120%; left: 50%; margin-right: -50%; transform: translate(-50%, -50%); font-size: 1.5em; }
+.go-trip a { color: #001c2c; }
+.info { height: 6vh; border-radius: 4px; background-color: #a1cce5; font-size: 4vh; border-width: 4px; border-color: #001c2c; color:rgb(0, 0, 0); }
+*::placeholder { color: #207bb0; font-family: Inter; font-size: 1em; margin-left: 2vw; }
+
+.display-locs li { display: inline; }
+
